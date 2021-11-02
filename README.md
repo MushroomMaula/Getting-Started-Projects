@@ -7,7 +7,7 @@ This project contains various little tasks and projects I usually find helpful w
 ## Beginner
 <details>
     <summary>Hello World</summary>
-    
+
 Display the string ` "Hello World!" `.
 </details>
 <details>
@@ -46,7 +46,7 @@ dcba
     <summary> Check if a string is palindrome </summary>
 
 Write a function that returns `1` if a given string is palindrome and `0` otherwise.
-A string is palindrome iff it the string is the same the string reversed.
+A string is palindrome iff reads the same backwards as forwards.
 Lower-/uppercase should be ignored.
 Example outputs for multiple inputs:
 ```
