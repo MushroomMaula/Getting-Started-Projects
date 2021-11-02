@@ -7,6 +7,7 @@ This project contains various little tasks and projects I usually find helpful w
 ## Beginner
 <details>
     <summary>Hello World</summary>
+    
 Display the string ` "Hello World!" `.
 </details>
 <details>
