@@ -114,7 +114,30 @@ Helpful information: [ascii table](https://www.lookuptables.com/text/ascii-table
 </details>
 
 
+<details>
+    <summary> Natural square root </summary>
+    
+For a given `n` find the last square of two [natural numbers](https://en.wikipedia.org/wiki/Natural_number) that is less than `n`.
+For example for `n=10` the program should output `9`.
+</details>
+
 ## Intermediate
+<details>
+    <summary> Square root </summary>
+    
+For a given `n` approximate the square root of the number using [newton's method](https://en.wikipedia.org/wiki/Newton%27s_method).
+Observe that newton's method is used to find the roots of a function. Therefore we need a function `f` that is zero at the square root of `n`. This relationship can be explained by `f(x) = x^2-n`.
+```
+function squareroot(n, steps):
+    x = n  # We start at n other starting points can also be used
+    for i=1 to steps do:
+        x = x - (x^2  - n) / 2*x
+
+    return x
+```
+
+</details>
+
 <details>
     <summary>IO-something</summary>
 </details>
