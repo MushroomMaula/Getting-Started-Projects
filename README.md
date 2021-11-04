@@ -128,7 +128,7 @@ For example for `n=10` the program should output `9`.
 For a given `n` approximate the square root of the number using [newton's method](https://en.wikipedia.org/wiki/Newton%27s_method).
 Observe that newton's method is used to find the roots of a function. Therefore we need a function `f` that is zero at the square root of `n`. This relationship can be explained by `f(x) = x^2-n`.
 ```
-function squareroot(n, steps):
+function sqrt(n, steps):
     x = n  # We start at n other starting points can also be used
     for i=1 to steps do:
         x = x - (x^2  - n) / 2*x
