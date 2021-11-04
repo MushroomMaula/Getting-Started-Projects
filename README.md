@@ -139,22 +139,70 @@ function sqrt(n, steps):
 </details>
 
 <details>
-    <summary>IO-something</summary>
+    <summary>Heap</summary>
+
+Implement the [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) data structure using an array.
 </details>
-<details>
-    <summary>Bubble sort</summary>
-</details>
+
 <details>
     <summary>Queue</summary>
+
+Implement a [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) which allows insertion, deletion and lookup of an element.
+
+```
+Queue {
+    # Insert an element at the end of the queue
+    insert(elem);
+
+    # Remove the element at the front
+    remove(elem);
+
+    # Returns True when the element is contained in the queue
+    contains(elem);
+}
+```
 </details>
+
 <details>
     <summary>Tree</summary>
+
+Implement a binary [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), which allows insertion of new elements, deletion, lookup of elements and mapping a function over all nodes.
+
+```
+Tree {
+    # Inserts a element into the tree. If the element is less than the root inserts into the left subtree
+    # if not into the right subtree.
+    insert(elem);
+
+    # If contained removes the element from the tree and shifts the other nodes correspondingly.
+    remove(elem);
+
+    # Returns True if the element is contained in the tree.
+    contains(elem);
+
+    # Applies func to all nodes in the tree.
+    map(func);
+}
+```
+
 </details>
 <details>
     <summary>Tic Tac Toe</summary>
 </details>
 <details>
     <summary>Karatsuba-Ofman Algorithm for multiplying two numbers</summary>
+
+Implement the [Karatsuba algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm) for multiplying two numbers.
+
+Let B be the base of the number system and X,Y be numbers of length n.
+```
+X * Y = (X_1 * B^(n/2) + X_0) * (Y_1 * B^(n/2) + Y_0)  # Divide X and Y in half
+      =  X_1Y_1 * B^n + ((X_1+X_0)(Y_0 + Y_1) - Y_0Y_0 + X_1Y_1) * B^(n/2) + X_0Y_0  # Using some arithmetic
+```
+
+
+Extra: Add the ability to specify in how many parts the number should be divided using an argument.
+
 </details>
 <details>
     <summary>A* Algorithm / Path finding algorithm</summary>
