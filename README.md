@@ -21,7 +21,6 @@ Example output for `n=10`:
 1
 2
 Fizz
-3
 4
 Buzz
 Fizz
@@ -79,7 +78,7 @@ assert a == 6 and b == 3
 Write a program that outputs the `n`th fibonacci number.
 The Fibonacci sequence is defined as follows:
 ```
-Fib(0) = 1
+Fib(0) = 0
 Fib(1) = 1
 Fib(n) = Fib(n-1) + Fib(n+1)      for n>1
 ```
